@@ -11,7 +11,7 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" scope="TEST" name="Maven: junit:junit:3.8.1" level="project" />
-    <orderEntry type="library" name="kuromoji-0.7.7" level="project" />
+    <orderEntry type="library" name="Maven: org.atilika.kuromoji:kuromoji:0.7.7" level="project" />
   </component>
 </module>
 
