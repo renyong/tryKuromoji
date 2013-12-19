@@ -7,7 +7,8 @@ import java.io.*;
 
 public class App {
     public static void saveProcessed(String processedSt){
-        ResultWriter rwt = new ResultWriter();
+        String fileName = "TweetsProcessed";
+        ResultWriter rwt = new ResultWriter(fileName);
         try {
             rwt.saveResult(processedSt);
         } catch (IOException e) {
@@ -18,9 +19,10 @@ public class App {
     }
     public static void main(String[] args) {
         System.out.println("This is the 1st project!");
-        String twCnt = "";
+        String twCnt;
+        String twFile = "tweets";
         Tokenizer tokenizer = Tokenizer.builder().build();
-        TweetsReader twr = new TweetsReader();
+        TweetsReader twr = new TweetsReader(twFile);
         twCnt = twr.readTweets();
         //System.out.println(twCnt);
         String[] texts = twCnt.split("\n");
