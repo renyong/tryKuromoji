@@ -11,9 +11,14 @@ import java.io.InputStreamReader;
  */
 
 class TweetsReader {
-    String fileName = "tweets";
+
+    String fileName = "";
     BufferedReader br = null;
     String fileCnt = "";
+
+    TweetsReader(String f){
+        this.fileName = f;
+    }
 
     public String readTweets() {
         try {

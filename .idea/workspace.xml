@@ -1,17 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="df19b3fc-30df-4259-a9fd-8a501757c77b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/atilika/twitter/App.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_3_8_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_atilika_kuromoji_kuromoji_0_7_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/atilika/twitter/ResultWriter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/atilika/twitter/TweetsReader.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/renyong/App.java" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/renyong/AppTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/atilika/twitter/AppTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yong.iml" afterPath="$PROJECT_DIR$/yong.iml" />
+    <list id="df19b3fc-30df-4259-a9fd-8a501757c77b" name="Default" comment="after reformat&#10;">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/atilika/twitter/ResultWriter.java" afterPath="$PROJECT_DIR$/src/main/java/com/atilika/twitter/ResultWriter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/atilika/twitter/TweetsReader.java" afterPath="$PROJECT_DIR$/src/main/java/com/atilika/twitter/TweetsReader.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
+    <list default="true" id="d6878c6a-b3a4-4366-a22a-69790fb4e5e0" name="Rejected commit: Default" comment="after reformat&#10;" />
     <ignored path="yong.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -83,10 +78,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="App.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="App.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/atilika/twitter/App.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="40" selection-start="302" selection-end="302" vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="765">
+            <state line="28" column="35" selection-start="936" selection-end="936" vertical-scroll-proportion="0.46721312" vertical-offset="249" max-vertical-offset="795">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -97,16 +92,16 @@
       <file leaf-file-name="ResultWriter.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/atilika/twitter/ResultWriter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="29" selection-start="291" selection-end="291" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
+            <state line="15" column="28" selection-start="307" selection-end="307" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TweetsReader.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="TweetsReader.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/atilika/twitter/TweetsReader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="29" selection-start="311" selection-end="311" vertical-scroll-proportion="0.21077283" vertical-offset="75" max-vertical-offset="615">
+            <state line="19" column="26" selection-start="387" selection-end="387" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="690">
               <folding />
             </state>
           </provider>
@@ -126,9 +121,10 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/renyong/App.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/atilika/twitter/TweetsReader.java" />
         <option value="$PROJECT_DIR$/src/main/java/renyong/ResultWriter.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/atilika/twitter/AppTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/atilika/twitter/TweetsReader.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/atilika/twitter/ResultWriter.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/atilika/twitter/App.java" />
       </list>
     </option>
@@ -528,12 +524,17 @@
       <updated>1387275947263</updated>
       <workItem from="1387275951632" duration="3038000" />
       <workItem from="1387279720938" duration="586000" />
-      <workItem from="1387433199218" duration="614000" />
+      <workItem from="1387433199218" duration="1630000" />
     </task>
+    <task id="LOCAL-00001" summary="after reformat&#10;">
+      <created>1387434808050</created>
+      <updated>1387434808050</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4238000" />
+    <option name="totallyTimeSpent" value="5254000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="20" y="22" width="1260" height="705" extended-state="0" />
@@ -552,14 +553,14 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32879046" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24958949" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2536946" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22487223" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23679727" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -579,6 +580,8 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
+    <MESSAGE value="after reformat&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="after reformat&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -641,26 +644,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/atilika/twitter/TweetsReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="26" selection-start="387" selection-end="387" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="690">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/atilika/twitter/ResultWriter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="29" selection-start="291" selection-end="291" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
+        <state line="15" column="28" selection-start="307" selection-end="307" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/atilika/twitter/App.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="40" selection-start="302" selection-end="302" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="765">
+        <state line="28" column="35" selection-start="936" selection-end="936" vertical-scroll-proportion="0.46721312" vertical-offset="249" max-vertical-offset="795">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/atilika/twitter/TweetsReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="29" selection-start="311" selection-end="311" vertical-scroll-proportion="0.21077283" vertical-offset="75" max-vertical-offset="615">
-          <folding />
         </state>
       </provider>
     </entry>

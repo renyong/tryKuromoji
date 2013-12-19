@@ -9,8 +9,13 @@ import java.io.OutputStreamWriter;
  * Created by yong on 12/17/13.
  */
 class ResultWriter {
-    String resultFile = "TweetsProcessed";
+    String resultFile = "";
     BufferedWriter bw = null;
+
+
+    ResultWriter(String f) {
+        this.resultFile = f;
+    }
 
     public void saveResult(String toS) throws IOException {
         bw = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(resultFile, true), "UTF-8"));
